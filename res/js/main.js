@@ -1,4 +1,6 @@
 const play = document.getElementById("play");
+const lore = document.getElementById("lore");
+const story = document.getElementById("story");
 const mainmenu = document.getElementById("mainmenu");
 const maingame = document.getElementById("maingame");
 const plus = document.getElementById("plus");
@@ -35,7 +37,10 @@ maingame.style.display="block";
 document.body.style.backgroundImage = "url(./res/img/path.jpg)";
 }
 
-
+lore.onclick = () =>{
+    mainmenu.style.display="none";
+    story.style.display="block";
+}
 
 setInterval(() => {
     let newEl = document.createElement('div');

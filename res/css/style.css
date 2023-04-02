@@ -6,6 +6,10 @@ top: 280px;
 left: 650px;
 }
 
+#story{
+    display: none;
+}
+
 #lore{
 width: 15em;
 height: 5em;
@@ -264,11 +268,11 @@ left: 1200px;
     }
     99%{
         display: block;
-        bottom: 98%;
+        bottom: 99%;
     }
     100%{
         display: none;
-        bottom: 99%;
+        bottom: 100%;
     }
 }@keyframes bulletDown {
     0%{
@@ -277,10 +281,10 @@ left: 1200px;
     }
     99%{
         display: block;
-        top: 98%;
+        top: 99%;
     }
     100%{
         display: none;
-        top: 99%;
+        top:100%;
     }
 }
