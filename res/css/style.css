@@ -1,0 +1,286 @@
+#play{
+width: 15em;
+height: 5em;
+position: relative;
+top: 280px;
+left: 650px;
+}
+
+#lore{
+width: 15em;
+height: 5em;
+position: relative;
+top: 360px;
+left: 447px;
+}
+
+.container{
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    display: none;
+}
+.tower-1{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+.bullet-1{
+    position: absolute;
+    left: 100px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation: bulletDown 5000ms linear forwards;
+    display: block;
+}
+
+.tower-2{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+.bullet-2{
+    position: absolute;
+    left: 500px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation: bulletDown 5000ms linear forwards;
+    display: block;
+}
+.tower-3{
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+    
+}
+.bullet-3{
+    position: absolute;
+    left: 900px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation: bulletDown 5000ms linear forwards;
+    display: block;
+}
+
+
+.tower-4{
+    position: absolute;
+    left: 1300px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+
+
+
+.bullet-4{
+    position: absolute;
+    left: 1300px;
+    top: 100px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation: bulletDown 5000ms linear forwards;
+    display: block;
+}
+
+
+.tower-5{
+    position: absolute;
+    left: 100px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+.bullet-5{
+    position: absolute;
+    left: 100px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation:bulletOut 5000ms linear forwards;;
+    display: block;
+}
+
+.tower-6{
+    position: absolute;
+    left: 500px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+.bullet-6{
+    position: absolute;
+    left: 500px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation:bulletOut 5000ms linear forwards;;
+    display: block;
+}
+
+.tower-7{
+    position: absolute;
+    left: 900px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+.bullet-7{
+    position: absolute;
+    left: 900px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation:bulletOut 5000ms linear forwards;;
+    display: block;
+}
+
+
+
+.tower-8{
+    position: absolute;
+    left: 1300px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 50px;
+    background-color: red;
+    display: block;
+}
+.bullet-8{
+    position: absolute;
+    left: 1300px;
+    bottom: 175px;
+    transform: translateX(-50%);
+    width: 10px;
+    height: 50px;
+    background-color: blue;
+    animation:bulletOut 5000ms linear forwards;;
+    display: block;
+}
+
+#maingame{
+display: none;
+}
+
+
+.plusimg{
+width: 200px;
+display: block;
+}
+#plusimga{
+    position: absolute;
+    left: 0px;
+    top: 10px;
+    
+    }
+
+#plusimgd{
+position: absolute;
+left: 1200px;
+top: 10px;
+
+}
+#plusimgc{
+position: absolute;
+left: 800px;
+top: 10px;
+}
+#plusimgb{
+position: absolute;
+left: 400px;
+top: 10px;
+}
+
+#plusimge{
+position: absolute;
+top: 410px;
+left: 0;
+}
+#plusimgf{
+    position: absolute;
+top: 410px;
+left: 400px;
+}
+#plusimgg{
+    position: absolute;
+top: 410px;
+left: 800px;
+}
+#plusimgh{
+    position: absolute;
+top: 410px;
+left: 1200px;
+}
+
+@keyframes bulletOut {
+    0%{
+        display: block;
+        bottom: 175px;
+    }
+    99%{
+        display: block;
+        bottom: 98%;
+    }
+    100%{
+        display: none;
+        bottom: 99%;
+    }
+}@keyframes bulletDown {
+    0%{
+        display: block;
+        top: 100px;
+    }
+    99%{
+        display: block;
+        top: 98%;
+    }
+    100%{
+        display: none;
+        top: 99%;
+    }
+}
